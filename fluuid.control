@@ -1,0 +1,5 @@
+comment = 'fluuid: generate universally unique identifiers (UUIDs)'
+default_version = '0.1'
+module_pathname = '$libdir/fluuid'
+relocatable = false
+superuser = false
