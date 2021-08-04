@@ -15,7 +15,7 @@ pg13 = ["pgx/pg13", "pgx-tests/pg13" ]
 pg_test = []
 
 [dependencies]
-pgx = "0.1.21"
+pgx = { version = "0.1.21", git = "https://github.com/kpumuk/pgx", branch = "uuid" }
 pgx-macros = "0.1.21"
 uuid = { version = "0.8.2", features = ["v1", "v4"] }
 getrandom = "0.2.0"
